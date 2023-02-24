@@ -1,0 +1,47 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (maxWidth: 500px) {
+/* .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  } */
+}
+
+.App-header {
+  background: linear-gradient(black, blue, black);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: greenyellow;
+}
+
+.App-link {
+  color: orangered;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.linkHome {
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .9s;
+}
+.linkHome:hover {
+  color: black;
+  text-decoration: underline;
+  transition: .9s;
+}
